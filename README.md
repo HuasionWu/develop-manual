@@ -12,6 +12,8 @@
 ### [commit的使用规范](https://github.com/ppn029012/fgg-dev-manual/blob/master/Git%E4%BD%BF%E7%94%A8%E8%A7%84%E8%8C%83/%E5%A6%82%E4%BD%95%E5%86%99%20commit%20%E5%86%85%E5%AE%B9%20.md)
 
 #### <p align="center">gitflow 流程图（由于削减了develop分支所以将develop分支与release合并即可）</p>
+![]
+(https://github.com/HuasionWu/develop-manual/raw/master/images/clipboard.png)
 
 ## 流程介绍
 * 不同feature在不同feature分支上单独开发(或测试)。
