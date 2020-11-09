@@ -12,7 +12,7 @@
 ### [commit的使用规范](https://github.com/ppn029012/fgg-dev-manual/blob/master/Git%E4%BD%BF%E7%94%A8%E8%A7%84%E8%8C%83/%E5%A6%82%E4%BD%95%E5%86%99%20commit%20%E5%86%85%E5%AE%B9%20.md)
 
 #### <p align="center">gitflow 流程图（由于削减了develop分支所以将develop分支与release合并即可）</p>
-![image](https://github.com/HuasionWu/develop-manual/raw/master/images/clipboard.jpg)
+![image](https://github.com/HuasionWu/develop-manual/blob/main/images/clipboard.png)
 
 ## 流程介绍
 * 不同feature在不同feature分支上单独开发(或测试)。
@@ -28,6 +28,7 @@
 
 ## Merge加上参数（合并分支）
 merge的四种状态 --ff（默认）即 **fast-ward** 方式、**--squash**、**--no-ff**、**--rebase**。
+![image](https://github.com/HuasionWu/develop-manual/blob/main/images/clipboard1.png)
 
 ### fast-forward
 Git 合并两个分支时，如果顺着一个分支走下去可以到达另一个分支的话，那么 Git 在合并两者时，只会简单地把指针右移，叫做“快进”（fast-forward）不过这种情况如果删除分支，则会丢失merge分支信息。
